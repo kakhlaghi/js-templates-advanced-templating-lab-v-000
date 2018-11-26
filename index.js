@@ -57,8 +57,8 @@ function handlebarsSetup() {
   Handlebars.registerPartial('recipeFormPartial', document.getElementById("recipe-form-partial").innerHTML)
 }
 
-handleSubmit(){
-
+function handleSubmit(){
+  
 }
 
 
