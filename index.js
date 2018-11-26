@@ -19,7 +19,7 @@ function updateRecipe() {
 }
 
 function displayEditForm() {
-  var name = document.getElementById("nameHeader").innerText
+  var name = document.getElementById("name").innerText
   var description = document.getElementById("recipeDescription").innerText
   var ingredientsNodes = document.getElementsByName("ingredientsList")
   var ingredients = []
