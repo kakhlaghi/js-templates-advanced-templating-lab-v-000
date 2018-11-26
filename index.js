@@ -57,6 +57,10 @@ function handlebarsSetup() {
   Handlebars.registerPartial('recipeFormPartial', document.getElementById("recipe-form-partial").innerHTML)
 }
 
+handleSubmit(){
+  
+}
+
 
 function init() {
   //put any page initialization/handlebars initialization here
