@@ -60,6 +60,7 @@ function handlebarsSetup() {
 function handleSubmit(){
   var recipe = getRecipeVals()
   var recipeCreate = createRecipe()
+  var editForm= displayEditForm()
 }
 
 
