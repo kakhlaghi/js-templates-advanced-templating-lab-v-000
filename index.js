@@ -58,8 +58,8 @@ function handlebarsSetup() {
 }
 
 function handleSubmit(){
-
-}
+  var recipe = getRecipeVals()
+  var recipeTemplate = document.getElementById("recipe-template").innerHTML}
 
 
 function init() {
